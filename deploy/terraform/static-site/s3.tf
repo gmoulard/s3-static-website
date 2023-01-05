@@ -1,4 +1,4 @@
-# .deploy/terraform/static-site/s3.tf
+# deploy/terraform/static-site/s3.tf
 resource "aws_s3_bucket" "website_bucket" {
   bucket = var.domain_name
   acl = "public-read"

@@ -1,4 +1,4 @@
-# .deploy/terraform/static-site/iam.tf
+# deploy/terraform/static-site/iam.tf
 data "aws_iam_policy_document" "website_policy" {
   statement {
     actions = [
