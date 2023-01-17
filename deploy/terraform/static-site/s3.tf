@@ -15,7 +15,7 @@ resource "aws_s3_bucket_lifecycle_configuration" "Limite" {
   bucket = var.domain_name
 
   rule {
-    status = "Disable"
+    status = "Disabled"
     id     = "5d"
     filter {
       prefix = "motion" 
